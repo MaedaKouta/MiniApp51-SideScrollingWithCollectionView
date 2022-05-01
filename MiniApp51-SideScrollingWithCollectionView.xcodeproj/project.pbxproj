@@ -13,6 +13,8 @@
 		8731CFCD281CAFDD001E4E56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8731CFCB281CAFDD001E4E56 /* Main.storyboard */; };
 		8731CFCF281CAFDE001E4E56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8731CFCE281CAFDE001E4E56 /* Assets.xcassets */; };
 		8731CFD2281CAFDE001E4E56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8731CFD0281CAFDE001E4E56 /* LaunchScreen.storyboard */; };
+		8731CFDB281CB081001E4E56 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8731CFD9281CB081001E4E56 /* CollectionViewCell.swift */; };
+		8731CFDC281CB081001E4E56 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8731CFDA281CB081001E4E56 /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8731CFCE281CAFDE001E4E56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8731CFD1281CAFDE001E4E56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8731CFD3281CAFDE001E4E56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8731CFD9281CB081001E4E56 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		8731CFDA281CB081001E4E56 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				8731CFCE281CAFDE001E4E56 /* Assets.xcassets */,
 				8731CFD0281CAFDE001E4E56 /* LaunchScreen.storyboard */,
 				8731CFD3281CAFDE001E4E56 /* Info.plist */,
+				8731CFD9281CB081001E4E56 /* CollectionViewCell.swift */,
+				8731CFDA281CB081001E4E56 /* CollectionViewCell.xib */,
 			);
 			path = "MiniApp51-SideScrollingWithCollectionView";
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				8731CFD2281CAFDE001E4E56 /* LaunchScreen.storyboard in Resources */,
 				8731CFCF281CAFDE001E4E56 /* Assets.xcassets in Resources */,
+				8731CFDC281CB081001E4E56 /* CollectionViewCell.xib in Resources */,
 				8731CFCD281CAFDD001E4E56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				8731CFCA281CAFDD001E4E56 /* ViewController.swift in Sources */,
 				8731CFC6281CAFDD001E4E56 /* AppDelegate.swift in Sources */,
+				8731CFDB281CB081001E4E56 /* CollectionViewCell.swift in Sources */,
 				8731CFC8281CAFDD001E4E56 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
